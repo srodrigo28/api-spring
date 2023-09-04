@@ -1,4 +1,4 @@
-package com.voll.api.infra;
+package com.voll.api.infra.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
