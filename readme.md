@@ -1,5 +1,6 @@
 ## Formação Java Spring
 * Formação do Spring
+* Post 201, Delete 204, Listar 200
 ``` Link
 https://cursos.alura.com.br/formacao-spring-boot-3
 ```
