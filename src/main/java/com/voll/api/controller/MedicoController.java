@@ -77,6 +77,12 @@ public class MedicoController {
 
         return ResponseEntity.ok(page);
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<DadosDetalhamentoMedico> detalhar(@PathVariable Long id) {
+        var medico = repository.getReferenceById(id);
+        return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
+    }
     
     /** Paginações exemplos URLs
      *  Size   http://localhost:8080/medicos?size=1
