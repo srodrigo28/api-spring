@@ -1,4 +1,4 @@
-package com.voll.api.produto;
+package com.voll.api.domain.produto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

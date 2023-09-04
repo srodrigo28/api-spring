@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.voll.api.produto.DadosAtualizarProduto;
-import com.voll.api.produto.DadosCadastrarProduto;
-import com.voll.api.produto.Produto;
-import com.voll.api.produto.ProdutoRepository;
+import com.voll.api.domain.produto.DadosAtualizarProduto;
+import com.voll.api.domain.produto.DadosCadastrarProduto;
+import com.voll.api.domain.produto.Produto;
+import com.voll.api.domain.produto.ProdutoRepository;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;

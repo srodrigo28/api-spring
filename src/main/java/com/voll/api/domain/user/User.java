@@ -1,4 +1,4 @@
-package com.voll.api.user;
+package com.voll.api.domain.user;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

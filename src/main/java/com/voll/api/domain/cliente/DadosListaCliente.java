@@ -1,4 +1,4 @@
-package com.voll.api.cliente;
+package com.voll.api.domain.cliente;
 
 public record DadosListaCliente(
     Long id,

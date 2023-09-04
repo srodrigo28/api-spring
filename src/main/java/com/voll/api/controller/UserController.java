@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.voll.api.user.DadosAtualizacaoUser;
-import com.voll.api.user.DadosCadastroUser;
-import com.voll.api.user.User;
-import com.voll.api.user.UserRepository;
+import com.voll.api.domain.user.DadosAtualizacaoUser;
+import com.voll.api.domain.user.DadosCadastroUser;
+import com.voll.api.domain.user.User;
+import com.voll.api.domain.user.UserRepository;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;

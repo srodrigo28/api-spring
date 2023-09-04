@@ -1,4 +1,4 @@
-package com.voll.api.produto;
+package com.voll.api.domain.produto;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

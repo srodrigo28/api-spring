@@ -1,4 +1,4 @@
-package com.voll.api.cliente;
+package com.voll.api.domain.cliente;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

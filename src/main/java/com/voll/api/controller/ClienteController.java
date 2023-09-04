@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.voll.api.cliente.Cliente;
-import com.voll.api.cliente.ClienteRepository;
-import com.voll.api.cliente.DadosAtualizarCliente;
-import com.voll.api.cliente.DadosCadastrarCliente;
-import com.voll.api.cliente.DadosListaCliente;
+import com.voll.api.domain.cliente.Cliente;
+import com.voll.api.domain.cliente.ClienteRepository;
+import com.voll.api.domain.cliente.DadosAtualizarCliente;
+import com.voll.api.domain.cliente.DadosCadastrarCliente;
+import com.voll.api.domain.cliente.DadosListaCliente;
 
 import jakarta.transaction.Transactional;
 
