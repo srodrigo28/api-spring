@@ -68,6 +68,9 @@ https://cursos.alura.com.br/course/spring-boot-3-desenvolva-api-rest-java
 ```
 https://cursos.alura.com.br/course/spring-boot-aplique-boas-praticas-proteja-api-rest
 ```
+#### Spring Security
+	* login: user
+	* senha: 8d920002-ee25-466d-baeb-942df01e926a
 
 ### Spring Boot 3: documente, teste e prepare uma API para o deploy
 * Carga Horária :: 10h
